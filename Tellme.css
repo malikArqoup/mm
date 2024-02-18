@@ -1,0 +1,180 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**************navbar************/
+
+.navbar img{
+    margin-top:5px;
+    width: 110px;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    }
+    .navbar{
+    
+        background-color:black;
+        display: flex;
+        width: 100%;
+        position:sticky; 
+       top: 0;
+       z-index: 1000;
+       
+           
+       }
+       li{
+        margin-left: 50px;
+        color: white;
+    }
+    li a{
+        
+        text-decoration: none;
+        color: white;
+    }
+    .navbar a:active {
+        color: yellow;
+    }
+    .navbar a:hover {
+        color: #87CEEB;
+    }
+    
+
+    .contener{
+        width: 80%;
+    }
+    .header{
+        background-image: url(images/khh.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-position: center;
+        background-size :cover;
+    }
+    .PORTFOLIO{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .PORTFOLIO h1{
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color:black;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px #e6c7c7;
+
+
+    }
+    .PORTFOLIO video{
+        background-color: black;
+    }
+    .write{
+        margin-top: 75px;
+        text-align: center;
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 2px #f50707;
+    }
+    .write h4{
+        margin-top: 20px;
+    }
+    .write h3{
+        color: ;
+        margin-top: 20px;
+    }
+/*****************اشياء مشتركه*****************/
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .imagg {
+        box-sizing: border-box;
+        padding: 20px;
+        background: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .imagg img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .imagg:first-child, .imagg:nth-child(2), .imagg:nth-child(3) {
+        width: calc(33.333% - 20px);
+    }
+    
+    
+    .imagg:nth-child(4), .imagg:nth-child(5) {
+        width: calc(33.33% - 20px);
+    }
+    .imagg {
+        position: relative; 
+        
+    }
+    
+    .price-tag {
+        position: absolute; 
+        bottom: 10px; 
+        right: 10px; 
+        background-color: #000; 
+        color: #fff; 
+        padding: 5px; 
+        border-radius: 5px; 
+    }
+    .BOY h1{
+        margin-top: 50px;
+        text-align: center;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #efdbdb;
+
+        
+    }
+    /**********women**********/
+
+    .WOMEN h1{
+        margin-top: 50px;
+        text-align: center;
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #e6cccc;
+
+        
+    }
+    /*********CONTACT**********/
+
+    .CONTACT{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .CONTACT h1{
+        font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #ecdada;
+
+    }
+    .CONTACT a{
+        margin-top: 10px;
+        font-size: xx-large;
+        color: red;
+    }
+    .CONTACT h3{
+        color: #6c757d;
+    }
+    
